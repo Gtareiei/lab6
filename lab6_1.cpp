@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int x ;
+    int x=1 ;
     int y=0 ;
     int z=0 ;
     while(x!=0){
