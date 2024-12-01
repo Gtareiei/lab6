@@ -10,7 +10,7 @@ double rad2deg(double a2){
     return rad2deg ;
 }
 double findXComponent(double l1,double l2,double a1,double a2){
-    double findXComponent=(l1*cos(a1))+(l2*sin(a2)) ;
+    double findXComponent=(l1*cos(a1))+(l2*cos(a2)) ;
     return findXComponent ;
 }
 double findYComponent(double l1,double l2 ,double a1, double a2){
@@ -18,7 +18,7 @@ double findYComponent(double l1,double l2 ,double a1, double a2){
     return findYComponent ;
 }
 double pythagoras(double xcomp , double ycomp){
-    double pythagoras=0.5*xcomp*ycomp ;
+    double pythagoras=sqrt(pow(xcomp,2) + pow(ycomp,2)) ;
     return pythagoras ;
 }
 void showResult(double result_vec_length,double result_vec_direction ){
